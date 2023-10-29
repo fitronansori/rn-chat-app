@@ -25,11 +25,11 @@ const Walkthrough = ({ navigation }) => {
           </Text>
           <View style={styles.btnWrapper}>
             <Text style={[styles.term, { ...FONTS.body }]}>
-              Terms and Privacy
+              Syarat dan ketentuan berlaku
             </Text>
 
             <Button
-              title="Start Messaging"
+              title="Mulai"
               onPress={() => navigation.navigate("PhoneNumber")}
               style={styles.btnStart}
             />
